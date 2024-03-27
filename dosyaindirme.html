@@ -1,0 +1,141 @@
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosyalar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <a href="#" class="text-white text-xl font-bold">Logo</a>
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex space-x-4">
+                    <li>
+                        <a href="index.html" class="menu-item text-white hover:text-white transition duration-300">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item text-white hover:text-white transition duration-300">Sınav</a>
+                    </li>
+                    <li>
+                        <a href="galeri.html" class="menu-item text-white hover:text-white transition duration-300">Galeri</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item text-white hover:text-white transition duration-300">Dosyalar</a>
+                    </li>
+                    <li>
+                        <a href="hakkimizda.html" class="menu-item text-white hover:text-white transition duration-300">Hakkımızda</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Menüyü açma/kapatma butonu (mobil için) -->
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none transition duration-300">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Responsive menü (mobil için) -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <ul class="mt-2 space-y-2">
+                <li>
+                    <a href="index.html" class="block px-4 py-2 text-white transition duration-300">Anasayfa</a>
+                </li>
+                <li>
+                    <a href="sinav.html" class="block px-4 py-2 text-white transition duration-300">Sınav</a>
+                </li>
+                <li>
+                    <a href="galeri.html" class="block px-4 py-2 text-white transition duration-300">Galeri</a>
+                </li>
+                <li>
+                    <a href="#" class="block px-4 py-2 text-white transition duration-300">Dosyalar</a>
+                </li>
+                <li>
+                    <a href="hakkimizda.html" class="block px-4 py-2 text-white transition duration-300">Hakkımızda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container mx-auto mt-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Dosyalar</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+            <!-- Dosya öğeleri -->
+            <div class="flex flex-col items-center justify-center">
+                <a href="dosyalar/dosya1.pdf" download class="bg-blue-500 hover:bg-blue-600 rounded-lg p-4 flex items-center justify-center text-white">
+                    <i class="fas fa-download text-4xl"></i>
+                </a>
+                <p class="mt-2 text-center">Dosya 1</p>
+            </div>
+            <!-- Diğer dosyalar buraya eklenecek -->
+            <!-- Dosya öğeleri -->
+            <div class="flex flex-col items-center justify-center">
+                <a href="dosyalar/dosya2.pdf" download class="bg-blue-500 hover:bg-blue-600 rounded-lg p-4 flex items-center justify-center text-white">
+                    <i class="fas fa-download text-4xl"></i>
+                </a>
+                <p class="mt-2 text-center">Dosya 2</p>
+            </div>
+            <!-- Diğer dosyalar buraya eklenecek -->
+            <!-- Dosya öğeleri -->
+            <div class="flex flex-col items-center justify-center">
+                <a href="dosyalar/dosya3.pdf" download class="bg-blue-500 hover:bg-blue-600 rounded-lg p-4 flex items-center justify-center text-white">
+                    <i class="fas fa-download text-4xl"></i>
+                </a>
+                <p class="mt-2 text-center">Dosya 3</p>
+            </div>
+            <!-- Diğer dosyalar buraya eklenecek -->
+            <!-- Dosya öğeleri -->
+            <div class="flex flex-col items-center justify-center">
+                <a href="dosyalar/dosya4.pdf" download class="bg-blue-500 hover:bg-blue-600 rounded-lg p-4 flex items-center justify-center text-white">
+                    <i class="fas fa-download text-4xl"></i>
+                </a>
+                <p class="mt-2 text-center">Dosya 4</p>
+            </div>
+            <!-- Diğer dosyalar buraya eklenecek -->
+            <!-- Dosya öğeleri -->
+            <div class="flex flex-col items-center justify-center">
+                <a href="dosyalar/dosya5.pdf" download class="bg-blue-500 hover:bg-blue-600 rounded-lg p-4 flex items-center justify-center text-white">
+                    <i class="fas fa-download text-4xl"></i>
+                </a>
+                <p class="mt-2 text-center">Dosya 5</p>
+            </div>
+            <!-- Diğer dosyalar buraya eklenecek -->
+            <!-- Dosya öğeleri -->
+            <div class="flex flex-col items-center justify-center">
+                <a href="dosyalar/dosya6.pdf" download class="bg-blue-500 hover:bg-blue-600 rounded-lg p-4 flex items-center justify-center text-white">
+                    <i class="fas fa-download text-4xl"></i>
+                </a>
+                <p class="mt-2 text-center">Dosya 6</p>
+            </div>
+            <!-- Diğer dosyalar buraya eklenecek -->
+        </div>
+    </div>
+    
+    
+   
+
+    <footer>
+        <p>&copy; 2024 Mezaak Footer Area</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

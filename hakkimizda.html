@@ -1,0 +1,85 @@
+
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <a href="#" class="text-white text-xl font-bold">Logo</a>
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex space-x-4">
+                    <li>
+                        <a href="index.html" class="menu-item text-white hover:text-white transition duration-300">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="sinav.html" class="menu-item text-white hover:text-white transition duration-300">Sınav</a>
+                    </li>
+                    <li>
+                        <a href="galeri.html" class="menu-item text-white hover:text-white transition duration-300">Galeri</a>
+                    </li>
+                    <li>
+                        <a href="dosyaindirme.html" class="menu-item text-white hover:text-white transition duration-300">Dosyalar</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item text-white hover:text-white transition duration-300">Hakkımızda</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Menüyü açma/kapatma butonu (mobil için) -->
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none transition duration-300">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Responsive menü (mobil için) -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <ul class="mt-2 space-y-2">
+                <li>
+                    <a href="index.html" class="block px-4 py-2 text-white transition duration-300">Anasayfa</a>
+                </li>
+                <li>
+                    <a href="sinav.html" class="block px-4 py-2 text-white transition duration-300">Sınav</a>
+                </li>
+                <li>
+                    <a href="galeri.html" class="block px-4 py-2 text-white transition duration-300">Galeri</a>
+                </li>
+                <li>
+                    <a href="dosyaindirme.html" class="block px-4 py-2 text-white transition duration-300">Dosyalar</a>
+                </li>
+                <li>
+                    <a href="#" class="block px-4 py-2 text-white transition duration-300">Hakkımızda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-8 text-center">
+        <h1 class="text-4xl font-bold">Hakkımızda</h1>
+        <p class="mt-4">Hakkımızda sayfasına hoşgeldiniz</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mezaak Footer Area</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

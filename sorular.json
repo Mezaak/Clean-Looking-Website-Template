@@ -1,0 +1,17 @@
+[
+    {
+        "soru": "Kahve hangi renktir ?",
+        "secenekler": ["Kahverengi", "Siyah", "Beyaz", "Kırmızı"],
+        "dogruCevap": "Kahverengi"
+    },
+    {
+        "soru": "Bu siteyi aşağıdaki geliştiricelerden hangisi geliştirmiştir ?",
+        "secenekler": ["Mezaak", "Ahmet", "Mehmet", "Kenan"],
+        "dogruCevap": "Mezaak"
+    },
+    {
+        "soru": "Yerçekimi hangi fizikçi tarafından keşfedilmiştir ?",
+        "secenekler": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Niels Bohr"],
+        "dogruCevap": "Isaac Newton"
+    }
+]

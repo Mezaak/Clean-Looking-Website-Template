@@ -1,0 +1,46 @@
+/* style.css */
+
+/* Menü stilini belirtmek için */
+.menu-item {
+    border-radius: 10px; /* Menü butonlarını daha az oval yap */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Geçiş efekti */
+    padding: 8px 12px; /* Buton içeriğine biraz daha mesafe ekleyelim */
+    margin: 2px; /* Butonlar arasına biraz mesafe ekleyelim */
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover rengi - daha transparan bir beyaz */
+    color: white; /* Yazı rengini beyaz yap */
+}
+
+/* Aktif menü elemanı için */
+.active-menu-item {
+    font-weight: bold;
+}
+
+/* Menü butonlarının hover efekti */
+#menu-toggle:hover {
+    transform: scale(1.1); /* Büyütme efekti */
+}
+
+/* Mobil menü geçiş efekti */
+#mobile-menu {
+    transition: max-height 0.5s ease; /* Yavaşça açılma efekti */
+    max-height: 0; /* Başlangıçta gizli */
+    overflow: hidden;
+    margin-bottom: 0; /* Sayfanın altına eklenen içerikle çakışmayı önlemek için */
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 3px 0;
+    text-align: center;
+}
+
+
